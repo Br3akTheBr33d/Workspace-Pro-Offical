@@ -1,0 +1,92 @@
+name: Bug Report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much detail as possible so we can reproduce and fix it quickly.
+
+  - type: input
+    id: version
+    attributes:
+      label: Extension Version
+      description: Find this in the extension popup or at chrome://extensions
+      placeholder: e.g. 3.5.4
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Brave
+        - Microsoft Edge
+        - Other Chromium browser
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I click on ... the extension ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Open the dashboard
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      multiple: true
+      options:
+        - Workspaces
+        - Collections
+        - Session History
+        - Current Session View
+        - Dashboard Widgets
+        - AI Tab Grouping
+        - Claude Chat
+        - Google Drive Backup
+        - Themes / Appearance
+        - Keyboard Shortcuts
+        - License / Pro Activation
+        - Settings
+        - Other
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: If applicable, add screenshots or a screen recording to help explain the problem.
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: Open DevTools (F12) → Console tab and paste any red error messages here.
+      render: shell
