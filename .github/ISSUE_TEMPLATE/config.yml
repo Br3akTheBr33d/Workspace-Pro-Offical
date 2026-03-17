@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://workspace-pro.app/docs
+    about: Check the docs first — your question might already be answered there.
+  - name: Contact & Support
+    url: https://workspace-pro.app/contact
+    about: For private support, billing questions, or license issues.

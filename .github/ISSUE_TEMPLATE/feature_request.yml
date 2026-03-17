@@ -1,0 +1,67 @@
+name: Feature Request
+description: Suggest an idea or improvement for Workspace Pro
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? We'd love to hear it! Describe what you'd like to see in Workspace Pro.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Is your feature request related to a frustration or limitation you're hitting?
+      placeholder: I'm always frustrated when... / I wish I could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your idea
+      description: What would you like to see? Be as specific as possible.
+      placeholder: It would be great if Workspace Pro could...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this relate to?
+      multiple: true
+      options:
+        - Workspaces
+        - Collections
+        - Session History
+        - Current Session View
+        - Dashboard Widgets
+        - AI Tab Grouping
+        - Claude Chat
+        - Google Drive Backup
+        - Themes / Appearance
+        - Keyboard Shortcuts
+        - Settings
+        - New feature area
+
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Should this be a Free or Pro feature?
+      options:
+        - Free
+        - Pro
+        - Not sure
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Have you found any workarounds or alternative tools for this?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other context, mockups, or examples that might help.
