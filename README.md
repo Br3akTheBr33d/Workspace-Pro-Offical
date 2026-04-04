@@ -48,50 +48,37 @@ Workspace Pro is a Chrome extension that turns every new tab into a full **comma
 | **Unlimited Workspaces & Collections** | No limits on how you organize |
 | **AI Tab Grouping** | Claude intelligently groups your open tabs by topic |
 | **AI Tab Summarize** | Summarize all open tabs with a single click |
-| **Claude Chat Widget** | Built-in AI chat using Haiku or Sonnet — your own API key |
+| **Workspace Pro Assistant** | Built-in AI assistant using Haiku or Sonnet — your own API key |
 | **File Attachments in Chat** | Attach images, PDFs, and text files directly to your AI conversations |
 | **RAM-based Tab Sorting** | Sort open tabs by memory usage to find and close heavy tabs fast |
-| **Dashboard Widgets** | Analog Clock, Weather, News Feed, Notepad, Claude Chat |
+| **Dashboard Widgets** | Clock & Timer, Weather, News Feed, Notepad, Assistant, Countdown, Quick Links |
 | **Google Drive Backup** | Auto-sync to a private AppData folder — invisible in "My Drive" |
-| **Offline License Validation** | Ed25519 cryptographic validation — no server dependency after activation |
+| **License Key Activation** | Ed25519-based offline validation with periodic revocation checks |
 
 ---
 
 ## Dashboard Widgets
 
-The Pro dashboard comes with 5 fully customizable widgets you can add, remove, and rearrange freely:
+The Pro dashboard comes with 7 fully customizable widgets you can add, remove, and rearrange freely:
 
-- **Analog Clock** — World clocks, multi-timezone, live analog display
+- **Clock & Timer** — World clocks, multi-timezone, analog display, alarms and countdown timer
 - **Weather** — 5-day forecast via Open-Meteo. No API key needed
 - **News** — AI/Tech RSS from 15+ sources with topic search
 - **Notepad** — Multi-page rich text with bold, lists, and headings
-- **Claude Chat** — AI chat with Haiku or Sonnet, your own key
+- **Workspace Pro Assistant** — AI chat with Haiku or Sonnet, your own key, file attachments
+- **Countdown** — Visual countdown timer with notifications
+- **Quick Links** — Pinned links and shortcuts for instant access
 
 ---
 
 ## How it Works
 
-1. **Install** the extension (see below)
+1. **Install** the extension from the Chrome Web Store (coming soon)
 2. **Open the popup** via the toolbar icon or `Ctrl+Shift+1` (`⌘+Shift+1` on Mac)
 3. **Open the dashboard** via `Ctrl+Shift+2` (`⌘+Shift+2` on Mac)
 4. **Create Workspaces** to organize your tabs by project or context
 5. **Save Sessions** to never lose your browser state again
 6. **Upgrade to Pro** for AI features, unlimited workspaces, and cloud backup
-
----
-
-## Installation
-
-> **Chrome Web Store release is coming soon.**
-
-In the meantime, you can load Workspace Pro manually via Developer Mode:
-
-1. Download the latest `.zip` from [workspace-pro.app](https://workspace-pro.app)
-2. Extract the archive
-3. Open `chrome://extensions/` in Chrome, Brave, or Edge
-4. Enable **Developer Mode** (toggle top-right)
-5. Click **"Load unpacked"** and select the extracted folder
-6. The extension is now active in your toolbar
 
 ---
 
@@ -120,15 +107,15 @@ In the meantime, you can load Workspace Pro manually via Developer Mode:
 | **Session History** | Up to 50 saves | Up to 50 saves |
 | **Themes** | All 8 + Custom Colors | All 8 + Custom Colors |
 | **Language** | EN / DE / ES | EN / DE / ES |
-| **Dashboard Widgets** | — | All 5 |
+| **Dashboard Widgets** | — | All 7 |
 | **AI Tab Grouping** | — | ✓ |
 | **AI Tab Summarize** | — | ✓ |
-| **Claude Chat Widget** | — | ✓ |
+| **Workspace Pro Assistant** | — | ✓ |
 | **File Attachments in Chat** | — | ✓ |
 | **RAM-based Tab Sorting** | — | ✓ |
 | **Google Drive Backup** | — | ✓ |
 
-> **Pro license is validated entirely locally** using the Web Crypto API (Ed25519). No server dependency after activation. Device-bound for security.
+> **Pro licenses are validated locally** using Ed25519 cryptography. A periodic revocation check runs every 4 hours against `license.workspace-pro.app` — transmitting only a device token, no personal data or browsing history. License activation data (device ID, email) is stored on the license server for the duration of your license and deleted upon request.
 
 [Get Pro License →](https://workspace-pro.app/#pricing)
 
@@ -140,7 +127,7 @@ Workspace Pro is **local-first**. All your workspaces, tabs, and sessions are st
 
 - No account required
 - No data sent to external servers (except optional Google Drive sync and AI features you enable yourself)
-- AI features (tab grouping, Claude Chat) use your own Anthropic API key
+- AI features (tab grouping, Workspace Pro Assistant) use your own Anthropic API key
 - Not affiliated with Google, Brave Software, or Microsoft
 
 [Privacy Policy](https://workspace-pro.app/privacy-policy) · [Terms of Service](https://workspace-pro.app/terms)
