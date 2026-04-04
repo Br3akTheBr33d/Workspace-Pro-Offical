@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://workspace-pro.app/favicon.ico" alt="Workspace Pro" width="64" />
-
-# Workspace Pro
-
-**Your Browser. Your Rules.**
-
-Tab & session management for power users — built for developers, homelab enthusiasts, and IT professionals.
+<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/logo.png" alt="Workspace Pro" width="560" />
 
 [![Version](https://img.shields.io/badge/version-1.0.0-crimson?style=flat-square)](https://workspace-pro.app)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-555?style=flat-square&logo=google-chrome&logoColor=white)](https://workspace-pro.app)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
+
+**Your Browser. Your Rules.**
+
+Tab & session management for power users — built for developers, homelab enthusiasts, and IT professionals.
 
 [Website](https://workspace-pro.app) · [Documentation](https://workspace-pro.app/docs) · [Report a Bug](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml) · [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
 
@@ -24,6 +22,10 @@ Tab & session management for power users — built for developers, homelab enthu
 Workspace Pro is a Chrome extension that turns every new tab into a full **command center for your browser**. It brings context-aware tab organization, AI-powered grouping, session history, and a live productivity dashboard — all local-first, with optional cloud backup.
 
 > Built for power users who live in the browser. Works on Chrome, Brave, Edge, and all Chromium-based browsers.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/dashboard.png" alt="Workspace Pro Dashboard" width="100%" />
+</div>
 
 ---
 
