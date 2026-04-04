@@ -8,12 +8,12 @@
 
 Tab & session management for power users — built for developers, homelab enthusiasts, and IT professionals.
 
-[![Version](https://img.shields.io/badge/version-3.5.4-crimson?style=flat-square)](https://workspace-pro.app)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Browser-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://workspace-pro.app)
+[![Version](https://img.shields.io/badge/version-1.0.0-crimson?style=flat-square)](https://workspace-pro.app)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-555?style=flat-square&logo=google-chrome&logoColor=white)](https://workspace-pro.app)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
 
-[Website](https://workspace-pro.app) · [Documentation](https://workspace-pro.app/docs) · [Report a Bug](https://github.com/Br3akTheBr33d/workspace-pro/issues/new?template=bug_report.yml) · [Request a Feature](https://github.com/Br3akTheBr33d/workspace-pro/issues/new?template=feature_request.yml)
+[Website](https://workspace-pro.app) · [Documentation](https://workspace-pro.app/docs) · [Report a Bug](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml) · [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
 
 </div>
 
@@ -37,7 +37,8 @@ Workspace Pro is a Chrome extension that turns every new tab into a full **comma
 | **Collections** | Group related tabs with rich notes and sticky notes |
 | **Session History** | Auto-saves up to 50 browser sessions — restore any of them with one click |
 | **Current Session View** | Live overview of all open tabs with search and management |
-| **5 Themes** | Crimson, Matrix, Blood Moon, Void Red, Inferno — all dark-first |
+| **8 Themes** | Crimson, Matrix, Blood Moon, Void Red, Inferno, Ocean, Forest, Aurora — all dark-first |
+| **Custom Colors** | Set your own background and accent color for a fully personalized look |
 | **Multi-Language UI** | Full interface in English, German, and Spanish |
 
 ### Pro Features
@@ -46,7 +47,10 @@ Workspace Pro is a Chrome extension that turns every new tab into a full **comma
 |---|---|
 | **Unlimited Workspaces & Collections** | No limits on how you organize |
 | **AI Tab Grouping** | Claude intelligently groups your open tabs by topic |
+| **AI Tab Summarize** | Summarize all open tabs with a single click |
 | **Claude Chat Widget** | Built-in AI chat using Haiku or Sonnet — your own API key |
+| **File Attachments in Chat** | Attach images, PDFs, and text files directly to your AI conversations |
+| **RAM-based Tab Sorting** | Sort open tabs by memory usage to find and close heavy tabs fast |
 | **Dashboard Widgets** | Analog Clock, Weather, News Feed, Notepad, Claude Chat |
 | **Google Drive Backup** | Auto-sync to a private AppData folder — invisible in "My Drive" |
 | **Offline License Validation** | Ed25519 cryptographic validation — no server dependency after activation |
@@ -67,11 +71,27 @@ The Pro dashboard comes with 5 fully customizable widgets you can add, remove, a
 
 ## How it Works
 
-1. **Install** the extension from the Chrome Web Store
-2. **Open the dashboard** via the toolbar icon or `Ctrl+Shift+W` (`⌘+Shift+W` on Mac)
-3. **Create Workspaces** to organize your tabs by project or context
-4. **Save Sessions** to never lose your browser state again
-5. **Upgrade to Pro** for AI features, unlimited workspaces, and cloud backup
+1. **Install** the extension (see below)
+2. **Open the popup** via the toolbar icon or `Ctrl+Shift+1` (`⌘+Shift+1` on Mac)
+3. **Open the dashboard** via `Ctrl+Shift+2` (`⌘+Shift+2` on Mac)
+4. **Create Workspaces** to organize your tabs by project or context
+5. **Save Sessions** to never lose your browser state again
+6. **Upgrade to Pro** for AI features, unlimited workspaces, and cloud backup
+
+---
+
+## Installation
+
+> **Chrome Web Store release is coming soon.**
+
+In the meantime, you can load Workspace Pro manually via Developer Mode:
+
+1. Download the latest `.zip` from [workspace-pro.app](https://workspace-pro.app)
+2. Extract the archive
+3. Open `chrome://extensions/` in Chrome, Brave, or Edge
+4. Enable **Developer Mode** (toggle top-right)
+5. Click **"Load unpacked"** and select the extracted folder
+6. The extension is now active in your toolbar
 
 ---
 
@@ -79,7 +99,8 @@ The Pro dashboard comes with 5 fully customizable widgets you can add, remove, a
 
 | Action | Windows / Linux | Mac |
 |---|---|---|
-| Open Dashboard | `Ctrl + Shift + W` | `⌘ + Shift + W` |
+| Open Popup | `Ctrl + Shift + 1` | `⌘ + Shift + 1` |
+| Open Dashboard | `Ctrl + Shift + 2` | `⌘ + Shift + 2` |
 | Close any modal | `Esc` | `Esc` |
 | Save form | `Enter` | `Enter` |
 | Save note (textarea) | `Ctrl + Enter` | `⌘ + Enter` |
@@ -97,11 +118,14 @@ The Pro dashboard comes with 5 fully customizable widgets you can add, remove, a
 | **Workspaces** | 1 | Unlimited |
 | **Collections** | 1 per Workspace | Unlimited |
 | **Session History** | Up to 50 saves | Up to 50 saves |
-| **Themes** | All 5 | All 5 |
+| **Themes** | All 8 + Custom Colors | All 8 + Custom Colors |
 | **Language** | EN / DE / ES | EN / DE / ES |
 | **Dashboard Widgets** | — | All 5 |
 | **AI Tab Grouping** | — | ✓ |
+| **AI Tab Summarize** | — | ✓ |
 | **Claude Chat Widget** | — | ✓ |
+| **File Attachments in Chat** | — | ✓ |
+| **RAM-based Tab Sorting** | — | ✓ |
 | **Google Drive Backup** | — | ✓ |
 
 > **Pro license is validated entirely locally** using the Web Crypto API (Ed25519). No server dependency after activation. Device-bound for security.
@@ -137,8 +161,8 @@ Works on any Chromium-based browser with Manifest V3 support:
 
 This repository is the public issue tracker for Workspace Pro.
 
-- **Found a bug?** → [Open a Bug Report](https://github.com/Br3akTheBr33d/workspace-pro/issues/new?template=bug_report.yml)
-- **Have an idea?** → [Request a Feature](https://github.com/Br3akTheBr33d/workspace-pro/issues/new?template=feature_request.yml)
+- **Found a bug?** → [Open a Bug Report](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml)
+- **Have an idea?** → [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
 - **Question or support?** → [Contact us](https://workspace-pro.app/contact) or email [support@workspace-pro.app](mailto:support@workspace-pro.app)
 
 ---
