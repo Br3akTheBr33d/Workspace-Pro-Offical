@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/logo.png" alt="Workspace Pro" width="560" />
+<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
 
 [![Version](https://img.shields.io/badge/version-1.0.0-crimson?style=flat-square)](https://workspace-pro.app)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-555?style=flat-square&logo=google-chrome&logoColor=white)](https://workspace-pro.app)
