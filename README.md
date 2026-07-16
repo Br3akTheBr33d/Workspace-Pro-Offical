@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
+<img src="assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
 
-[![Version](https://img.shields.io/badge/version-1.0.0-crimson?style=flat-square)](https://workspace-pro.app)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-555?style=flat-square&logo=google-chrome&logoColor=white)](https://workspace-pro.app)
+[![Version](https://img.shields.io/badge/version-1.0.8-crimson?style=flat-square)](https://workspace-pro.app)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Live-1a73e8?style=flat-square&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/detail/jplhkjcdmpchejmdjjdckpbhdognoknm)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
 
@@ -11,89 +11,97 @@
 
 Tab & session management for power users — built for developers, homelab enthusiasts, and IT professionals.
 
-[Website](https://workspace-pro.app) · [Documentation](https://workspace-pro.app/docs) · [Report a Bug](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml) · [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
+[Website](https://workspace-pro.app) · [Documentation](https://workspace-pro.app/docs) · [Chrome Web Store](https://chrome.google.com/webstore/detail/jplhkjcdmpchejmdjjdckpbhdognoknm) · [Report a Bug](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml) · [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
 
 </div>
 
 ---
 
-## What is Workspace Pro?
+## Workspace Pro v1.0.8 — Live on the Chrome Web Store
 
-Workspace Pro is a Chrome extension that turns every new tab into a full **command center for your browser**. It brings context-aware tab organization, AI-powered grouping, session history, and a live productivity dashboard — all local-first, with optional cloud backup.
+Workspace Pro turns every new tab into a local-first command center for your browser. Organize tabs into workspaces and collections, restore saved sessions, and use an optional Pro dashboard for AI tools, widgets, and private Google Drive backup.
 
-> Built for power users who live in the browser. Works on Chrome, Brave, Edge, and all Chromium-based browsers.
+> Built for power users who live in the browser. Works on Chrome, Brave, Edge, and other Chromium-based browsers.
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Br3akTheBr33d/Workspace-Pro-Offical/main/assets/dashboard.png" alt="Workspace Pro Dashboard" width="100%" />
-</div>
+<img src="assets/dashboard-overview.png" alt="Workspace Pro v1.0.8 dashboard with productivity widgets" width="100%" />
 
 ---
 
-## Features
+## Features in v1.0.8
 
-### Core Features (Free)
+### Free
 
-| Feature | Description |
+| Feature | What it does |
 |---|---|
-| **Workspaces** | Create isolated environments for every project, client, or context |
-| **Collections** | Group related tabs with rich notes and sticky notes |
-| **Session History** | Auto-saves up to 50 browser sessions — restore any of them with one click |
-| **Current Session View** | Live overview of all open tabs with search and management |
-| **8 Themes** | Crimson, Matrix, Blood Moon, Void Red, Inferno, Ocean, Forest, Aurora — all dark-first |
-| **Custom Colors** | Set your own background and accent color for a fully personalized look |
-| **Multi-Language UI** | Full interface in English, German, and Spanish |
+| **Workspaces & Collections** | Organize projects, clients, and contexts; save tabs with notes and sticky notes. |
+| **Session History** | Keep up to 50 saved browser sessions and restore them when needed. |
+| **Current Session** | Search and manage your currently open tabs. |
+| **Personalization** | Eight dark-first themes, custom colors, and English, German, or Spanish UI. |
+| **Local-first data** | Workspace data remains on your device by default. |
 
-### Pro Features
+### Pro
 
-| Feature | Description |
+| Feature | What it does |
 |---|---|
-| **Unlimited Workspaces & Collections** | No limits on how you organize |
-| **AI Tab Grouping** | Claude intelligently groups your open tabs by topic |
-| **AI Tab Summarize** | Summarize all open tabs with a single click |
-| **Workspace Pro Assistant** | Built-in AI assistant using Haiku or Sonnet — your own API key |
-| **File Attachments in Chat** | Attach images, PDFs, and text files directly to your AI conversations |
-| **RAM-based Tab Sorting** | Sort open tabs by memory usage to find and close heavy tabs fast |
-| **Dashboard Widgets** | Clock & Timer, Weather, News Feed, Notepad, Assistant, Countdown, Quick Links |
-| **Google Drive Backup** | Auto-sync to a private AppData folder — invisible in "My Drive" |
-| **License Key Activation** | Ed25519-based offline validation with periodic revocation checks |
+| **Unlimited organization** | Remove free-tier workspace and collection limits. |
+| **AI tab tools** | Group tabs by category, domain, or your AI provider and summarize open tabs. |
+| **Workspace Pro Assistant** | Chat with your own provider key, use Haiku or Sonnet models, attach files, and work with contextual browser tools. |
+| **Dashboard widgets** | Add, resize, and arrange Clock & Timer, Weather, News, Notepad, Assistant, Countdown, and Quick Links widgets. |
+| **Tab Resource Monitor** | Find memory-heavy tabs quickly. |
+| **Google Drive Backup** | Store opt-in backups in a private Drive AppData folder. |
+
+<p align="center"><img src="assets/popup-assistant.png" alt="Workspace Pro Assistant in the browser popup" width="380" /></p>
 
 ---
 
-## Dashboard Widgets
+## Dashboard widgets
 
-The Pro dashboard comes with 7 fully customizable widgets you can add, remove, and rearrange freely:
-
-- **Clock & Timer** — World clocks, multi-timezone, analog display, alarms and countdown timer
-- **Weather** — 5-day forecast via Open-Meteo. No API key needed
-- **News** — AI/Tech RSS from 15+ sources with topic search
-- **Notepad** — Multi-page rich text with bold, lists, and headings
-- **Workspace Pro Assistant** — AI chat with Haiku or Sonnet, your own key, file attachments
-- **Countdown** — Visual countdown timer with notifications
-- **Quick Links** — Pinned links and shortcuts for instant access
-
----
-
-## How it Works
-
-1. **Install** the extension from the Chrome Web Store (coming soon)
-2. **Open the popup** via the toolbar icon or `Ctrl+Shift+1` (`⌘+Shift+1` on Mac)
-3. **Open the dashboard** via `Ctrl+Shift+2` (`⌘+Shift+2` on Mac)
-4. **Create Workspaces** to organize your tabs by project or context
-5. **Save Sessions** to never lose your browser state again
-6. **Upgrade to Pro** for AI features, unlimited workspaces, and cloud backup
+| Widget | Highlights |
+|---|---|
+| **Clock & Timer** | World clocks, stopwatch, timer, and alarms. |
+| **Weather** | Five-day forecast from Open-Meteo; no API key required. |
+| **News** | RSS-based tech and AI news with topic filters. |
+| **Notepad** | Multi-page rich text notes with headings and lists. |
+| **Workspace Pro Assistant** | Persistent AI chat using your provider key. |
+| **Countdown** | Recurring deadlines with Chrome notifications. |
+| **Quick Links** | Pinned shortcuts with favicons and emoji. |
 
 ---
 
-## Keyboard Shortcuts
+## Keyboard shortcuts
 
 | Action | Windows / Linux | Mac |
 |---|---|---|
 | Open Popup | `Ctrl + Shift + 1` | `⌘ + Shift + 1` |
 | Open Dashboard | `Ctrl + Shift + 2` | `⌘ + Shift + 2` |
+| Open Workspace Pro Assistant | `Ctrl + Shift + 9` | `⌘ + Shift + 9` |
 | Close any modal | `Esc` | `Esc` |
-| Save form | `Enter` | `Enter` |
-| Save note (textarea) | `Ctrl + Enter` | `⌘ + Enter` |
-| Tab context menu | `Right-click` | `Right-click` |
+| Save a form | `Enter` | `Enter` |
+| Save a note | `Ctrl + Enter` | `⌘ + Enter` |
+
+Default shortcuts can be changed in `chrome://extensions/shortcuts`.
+
+---
+
+## Privacy and backup
+
+Workspace Pro has no analytics, tracking, or advertising. Optional AI actions send only the tab or chat content needed for the action you explicitly start. Optional Google Drive backup uses the private AppData folder, and license validation uses a pseudonymous device token rather than workspace data.
+
+[Privacy Policy](https://workspace-pro.app/privacy-policy) · [Terms of Service](https://workspace-pro.app/terms)
+
+---
+
+## Coming in v1.1.0
+
+> **Preview only:** v1.1.0 is in development and is **not part of the published v1.0.8 Chrome Web Store release**. Screens and wording may change before release.
+
+The upcoming Pro Wiki turns clipped pages into a local searchable knowledge base. It includes full-text search, tags, `[[wikilinks]]`, backlinks, a visual graph, Markdown export, and optional AI Compile, Lint, and Ask Wiki workflows using your own provider key. The update also expands Assistant coverage, improves the popup experience, and adds versioned Drive restore points.
+
+<img src="assets/wiki-graph.png" alt="Preview of the Workspace Pro Wiki knowledge graph" width="100%" />
+
+<img src="assets/drive-snapshots.png" alt="Preview of Workspace Pro Google Drive versioned restore points" width="100%" />
+
+[Read the v1.1.0 preview in the documentation →](https://workspace-pro.app/docs#doc-wiki)
 
 ---
 
@@ -103,56 +111,24 @@ The Pro dashboard comes with 7 fully customizable widgets you can add, remove, a
 
 | | Free | Pro |
 |---|---|---|
-| **Price** | $0 forever | One-time license key |
+| **Price** | €0 | One-time license key |
 | **Workspaces** | 1 | Unlimited |
-| **Collections** | 1 per Workspace | Unlimited |
+| **Collections** | 1 per workspace | Unlimited |
 | **Session History** | Up to 50 saves | Up to 50 saves |
-| **Themes** | All 8 + Custom Colors | All 8 + Custom Colors |
-| **Language** | EN / DE / ES | EN / DE / ES |
-| **Dashboard Widgets** | — | All 7 |
-| **AI Tab Grouping** | — | ✓ |
-| **AI Tab Summarize** | — | ✓ |
-| **Workspace Pro Assistant** | — | ✓ |
-| **File Attachments in Chat** | — | ✓ |
-| **RAM-based Tab Sorting** | — | ✓ |
-| **Google Drive Backup** | — | ✓ |
-
-> **Pro licenses are validated locally** using Ed25519 cryptography. A periodic revocation check runs every 4 hours against `license.workspace-pro.app` — transmitting only a device token, no personal data or browsing history. License activation data (device ID, email) is stored on the license server for the duration of your license and deleted upon request.
+| **Themes & languages** | All themes; EN / DE / ES | All themes; EN / DE / ES |
+| **Widgets, AI & Drive backup** | — | Included |
 
 [Get Pro License →](https://workspace-pro.app/#pricing)
 
 ---
 
-## Privacy
-
-Workspace Pro is **local-first**. All your workspaces, tabs, and sessions are stored in your browser's local storage.
-
-- No account required
-- No data sent to external servers (except optional Google Drive sync and AI features you enable yourself)
-- AI features (tab grouping, Workspace Pro Assistant) use your own Anthropic API key
-- Not affiliated with Google, Brave Software, or Microsoft
-
-[Privacy Policy](https://workspace-pro.app/privacy-policy) · [Terms of Service](https://workspace-pro.app/terms)
-
----
-
-## Compatibility
-
-Works on any Chromium-based browser with Manifest V3 support:
-
-- Google Chrome
-- Brave
-- Microsoft Edge
-
----
-
-## Bug Reports & Feature Requests
+## Bug reports and feature requests
 
 This repository is the public issue tracker for Workspace Pro.
 
 - **Found a bug?** → [Open a Bug Report](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=bug_report.yml)
 - **Have an idea?** → [Request a Feature](https://github.com/Br3akTheBr33d/Workspace-Pro-Offical/issues/new?template=feature_request.yml)
-- **Question or support?** → [Contact us](https://workspace-pro.app/contact) or email [support@workspace-pro.app](mailto:support@workspace-pro.app)
+- **Need help?** → [Contact support](https://workspace-pro.app/contact) or email [support@workspace-pro.app](mailto:support@workspace-pro.app)
 
 ---
 
