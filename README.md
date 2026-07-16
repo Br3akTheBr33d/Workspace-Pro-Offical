@@ -23,7 +23,7 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 
 > Built for power users who live in the browser. Works on Chrome, Brave, Edge, and other Chromium-based browsers.
 
-<img src="assets/dashboard-overview.png" alt="Workspace Pro v1.0.8 dashboard with productivity widgets" width="100%" />
+<img src="assets/dashboard.png" alt="Workspace Pro v1.0.8 dashboard with productivity widgets" width="100%" />
 
 ---
 
