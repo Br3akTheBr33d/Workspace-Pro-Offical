@@ -2,7 +2,7 @@
 
 <img src="assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
 
-[![Version](https://img.shields.io/badge/version-1.1.0-crimson?style=flat-square)](https://workspace-pro.app)
+[![Version](https://img.shields.io/badge/version-1.2.0-crimson?style=flat-square)](https://workspace-pro.app)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Live-1a73e8?style=flat-square&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/detail/jplhkjcdmpchejmdjjdckpbhdognoknm)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
@@ -17,17 +17,19 @@ Tab & session management for power users — built for developers, homelab enthu
 
 ---
 
-## Workspace Pro v1.1.0 — Live on the Chrome Web Store
+## Workspace Pro v1.2.0 — Live on the Chrome Web Store
 
-Workspace Pro turns every new tab into a local-first command center for your browser. Organize tabs into workspaces and collections, restore saved sessions, keep a personal searchable Wiki of clipped pages, and use an optional Pro dashboard for multi-provider AI tools, widgets, and private Google Drive backup.
+Workspace Pro turns every new tab into a local-first command center for your browser. Organize tabs into workspaces and collections, restore saved sessions, keep a personal searchable Wiki of clipped pages, and use an optional Pro dashboard for multi-provider AI tools, widgets, and private Google Drive sync.
+
+**v1.2.0** extends that workspace to your phone and your AI tools: Mobile Companion on phone and tablet, Agent Connect for MCP clients, and encrypted two-way Google Drive sync with recovery and rotation.
 
 > Built for power users who live in the browser. Works on Chrome, Brave, Edge, and other Chromium-based browsers.
 
-<img src="assets/dashboard.png" alt="Workspace Pro v1.1.0 dashboard with productivity widgets" width="100%" />
+<img src="assets/dashboard.png" alt="Workspace Pro v1.2.0 dashboard with productivity widgets" width="100%" />
 
 ---
 
-## Features in v1.1.0
+## Features in v1.2.0
 
 ### Free
 
@@ -36,7 +38,7 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 | **Workspaces & Collections** | Organize projects, clients, and contexts; save tabs with notes and sticky notes. |
 | **Session History** | Keep up to 50 saved browser sessions and restore them when needed. |
 | **Current Session** | Search and manage your currently open tabs. |
-| **Personalization** | Eight dark-first themes, custom colors, and English, German, or Spanish UI. |
+| **Personalization** | Eight dark-first themes, custom colors, readability controls, and English, German, or Spanish UI. |
 | **Local-first data** | Workspace data remains on your device by default. |
 
 ### Pro
@@ -48,10 +50,43 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 | **AI tab tools** | Group tabs by category, domain, or your AI provider and summarize open tabs. |
 | **Workspace Pro Assistant** | Chat with your own Claude, OpenAI, or OpenRouter key, browse live model lists, attach files, and act on contextual browser and Wiki tools. |
 | **Dashboard widgets** | Add, resize, and arrange Clock & Timer, Weather, News, Notepad, Assistant, Countdown, and Quick Links widgets. |
-| **Tab Resource Monitor** | Find memory-heavy tabs quickly. |
-| **Google Drive Backup** | Opt-in backups plus versioned, timestamped restore points in a private Drive AppData folder. |
+| **Tab Resource Monitor** | Find memory-heavy tabs quickly; Sessions view unifies tabs, windows, groups, and memory. |
+| **Mobile Companion** | Workspaces, Collections, Wiki, and Widgets on phone and tablet with encrypted two-way sync over private Google Drive AppData — the unlock key stays on your devices. |
+| **Agent Connect** | MCP server for AI clients (Hermes, OpenClaw, Claude Desktop/Code, Cursor, Codex, and any MCP client). With browser (live tabs via Cloudflare Rendezvous) or Without computer / Drive MCP (Wiki, Workspaces, Collections, bookmarks, notes). Pair under Settings → Agent Bridge. |
+| **Encrypted Google Drive sync** | Drive Envelope v2, Recovery Key / Recovery Hub, key rotation, sync-merge, and versioned restore points in a private Drive AppData folder. |
 
 <p align="center"><img src="assets/popup-assistant.png" alt="Workspace Pro Assistant in the browser popup" width="380" /></p>
+
+---
+
+## Mobile Companion
+
+Your workspaces now fit in your pocket. The [Mobile Companion](https://app.workspace-pro.app) is a progressive web app for phones and tablets — Workspaces, Collections, Wiki, and Widgets, installed from the browser with no app-store account.
+
+Data syncs through your own encrypted Google Drive AppData file. The unlock key travels in the pairing URL fragment (QR) and never reaches a Workspace Pro server — it lives on your devices.
+
+<p align="center">
+  <img src="assets/companion-home.png" alt="Workspace Pro Mobile Companion home screen" width="280" />
+  &nbsp;&nbsp;
+  <img src="assets/companion-workspaces.png" alt="Workspace Pro Mobile Companion workspaces" width="280" />
+</p>
+
+[Open the Companion →](https://app.workspace-pro.app) · [News & overview →](https://workspace-pro.app/news.html)
+
+---
+
+## Agent Connect
+
+Workspace Pro is an MCP server your AI can use. Agent Connect works with Hermes, OpenClaw, Claude Desktop, Claude Code, Cursor, Codex, and any MCP-compatible client.
+
+| Mode | What you get |
+|---|---|
+| **With browser** | Live tabs and browser context via Cloudflare Rendezvous while Chrome is on. |
+| **Without computer / Drive MCP** | Wiki, Workspaces, Collections, bookmarks, and notes against your encrypted Google Drive — no live tabs. |
+
+Pairing is one paste from **Settings → Agent Bridge**. The pairing code is chat-safe and expires in about ten minutes.
+
+[Agent Connect docs →](https://workspace-pro.app/docs#doc-agent-connect) · [Agent Connect page →](https://workspace-pro.app/agent-connect.html)
 
 ---
 
@@ -104,13 +139,15 @@ Default shortcuts can be changed in `chrome://extensions/shortcuts`.
 
 ---
 
-## Privacy and backup
+## Privacy, sync, and backup
 
-Workspace Pro has no analytics, tracking, or advertising. The Wiki is stored locally like the rest of your workspace data. Optional AI actions (tab tools, Assistant, or Wiki Compile/Lint/Ask) send only the content needed for the action you explicitly start, to the provider you configured. Optional Google Drive backup writes to the private AppData folder (not visible in "My Drive") and keeps up to 20 timestamped restore points you can roll back to, and license validation uses a pseudonymous device token rather than workspace data.
+Workspace Pro has no analytics, tracking, or advertising. The Wiki is stored locally like the rest of your workspace data. Optional AI actions (tab tools, Assistant, or Wiki Compile/Lint/Ask) send only the content needed for the action you explicitly start, to the provider you configured.
+
+Optional **encrypted two-way Google Drive sync** writes ciphertext to the private AppData folder (not visible in "My Drive"), uses authenticated Drive Envelope v2, supports Recovery Key / Recovery Hub and transactional key rotation, keeps versioned restore points, and merges edits from desktop and Mobile Companion instead of overwriting. License validation uses a pseudonymous device token rather than workspace data.
 
 <img src="assets/drive-snapshots.png" alt="Workspace Pro Google Drive versioned restore points" width="100%" />
 
-[Privacy Policy](https://workspace-pro.app/privacy-policy) · [Terms of Service](https://workspace-pro.app/terms)
+[Drive encryption docs →](https://workspace-pro.app/docs#doc-drive-encryption) · [Encryption overview →](https://workspace-pro.app/encryption.html) · [Privacy Policy](https://workspace-pro.app/privacy-policy) · [Terms of Service](https://workspace-pro.app/terms)
 
 ---
 
@@ -125,7 +162,9 @@ Workspace Pro has no analytics, tracking, or advertising. The Wiki is stored loc
 | **Collections** | 1 per workspace | Unlimited |
 | **Session History** | Up to 50 saves | Up to 50 saves |
 | **Themes & languages** | All themes; EN / DE / ES | All themes; EN / DE / ES |
-| **Wiki, widgets, AI & Drive backup** | — | Included |
+| **Wiki, widgets, AI & Drive sync** | — | Included |
+| **Mobile Companion** | — | Included |
+| **Agent Connect** | — | Included |
 
 [Get Pro License →](https://workspace-pro.app/#pricing)
 
