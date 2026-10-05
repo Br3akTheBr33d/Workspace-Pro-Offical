@@ -2,7 +2,7 @@
 
 <img src="assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
 
-[![Version](https://img.shields.io/badge/version-1.2.0-crimson?style=flat-square)](https://workspace-pro.app)
+[![Version](https://img.shields.io/badge/version-1.2.2-crimson?style=flat-square)](https://workspace-pro.app)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Live-1a73e8?style=flat-square&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/detail/jplhkjcdmpchejmdjjdckpbhdognoknm)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
@@ -17,28 +17,51 @@ Tab & session management for power users — built for developers, homelab enthu
 
 ---
 
-## Workspace Pro v1.2.0 — Live on the Chrome Web Store
+## Workspace Pro v1.2.2 — Live on the Chrome Web Store
 
 Workspace Pro turns every new tab into a local-first command center for your browser. Organize tabs into workspaces and collections, restore saved sessions, keep a personal searchable Wiki of clipped pages, and use an optional Pro dashboard for multi-provider AI tools, widgets, and private Google Drive sync.
 
-**v1.2.0** extends that workspace to your phone and your AI tools: Mobile Companion on phone and tablet, Agent Connect for MCP clients, and encrypted two-way Google Drive sync with recovery and rotation.
+**v1.2.2** makes encrypted Drive recovery clearer, refreshes the Wiki list-and-preview experience, simplifies Agent Connect over Drive, and keeps desktop and Mobile Companion in sync more reliably.
 
 > Built for power users who live in the browser. Works on Chrome, Brave, Edge, and other Chromium-based browsers.
 
-<img src="assets/dashboard.png" alt="Workspace Pro v1.2.0 dashboard with productivity widgets" width="100%" />
+<img src="assets/dashboard.png" alt="Workspace Pro v1.2.2 dashboard with productivity widgets" width="100%" />
 
 ---
 
-## Features in v1.2.0
+## What’s new
+
+### v1.2.2 — Drive Recovery, Wiki Preview & Cross-Device Sync
+*October 3, 2026*
+
+- Recovery code for encrypted Drive backups when reconnecting (clear restore progress)
+- Devices & agents under Settings → Google Drive (paired phones/AI clients, revoke, re-pair)
+- Agent Connect centers on Drive MCP: one setup flow, privacy confirmation, live status
+- Wiki list redesign: list/cards, side preview, keyboard nav, PDF export, accent-safe filenames
+- Workspaces/Collections: select, collapse-all, bulk delete, multi-move
+- Icon picker (line icons + emojis, optional color); clearer EN/DE/ES Settings & recovery copy
+- Mobile Companion Semver track starts at Companion 1.0.0 (separate from the extension version)
+
+### v1.2.1 — Hybrid Wiki Search, Drive Auto Sync & Popup Workflows
+
+- Hybrid Wiki search coverage
+- Drive Auto Sync for workspace & Wiki changes (including clips)
+- Popup workflows for clips and sessions
+
+[Full changelog →](https://workspace-pro.app/changelog.html)
+
+---
+
+## Features in v1.2.2
 
 ### Free
 
 | Feature | What it does |
 |---|---|
-| **Workspaces & Collections** | Organize projects, clients, and contexts; save tabs with notes and sticky notes. |
+| **Workspaces & Collections** | Organize projects, clients, and contexts; save tabs with notes and sticky notes. Select, collapse-all, bulk delete, and multi-move when you need them. |
 | **Session History** | Keep up to 50 saved browser sessions and restore them when needed. |
 | **Current Session** | Search and manage your currently open tabs. |
-| **Personalization** | Eight dark-first themes, custom colors, readability controls, and English, German, or Spanish UI. |
+| **Personalization** | Eight dark-first themes, custom colors, readability controls, icon picker (line icons + emojis), and English, German, or Spanish UI. |
 | **Local-first data** | Workspace data remains on your device by default. |
 
 ### Pro
@@ -46,14 +69,14 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 | Feature | What it does |
 |---|---|
 | **Unlimited organization** | Remove free-tier workspace and collection limits. |
-| **Personal Wiki** | Clip pages into a local, full-text-searchable knowledge base with tags, `[[wikilinks]]`, backlinks, and a visual graph. |
+| **Personal Wiki** | Clip pages into a local, full-text-searchable knowledge base with tags, `[[wikilinks]]`, backlinks, visual graph, list/cards + side preview, keyboard nav, and PDF export. |
 | **AI tab tools** | Group tabs by category, domain, or your AI provider and summarize open tabs. |
 | **Workspace Pro Assistant** | Chat with your own Claude, OpenAI, or OpenRouter key, browse live model lists, attach files, and act on contextual browser and Wiki tools. |
 | **Dashboard widgets** | Add, resize, and arrange Clock & Timer, Weather, News, Notepad, Assistant, Countdown, and Quick Links widgets. |
 | **Tab Resource Monitor** | Find memory-heavy tabs quickly; Sessions view unifies tabs, windows, groups, and memory. |
-| **Mobile Companion** | Workspaces, Collections, Wiki, and Widgets on phone and tablet with encrypted two-way sync over private Google Drive AppData — the unlock key stays on your devices. |
-| **Agent Connect** | MCP server for AI clients (Hermes, OpenClaw, Claude Desktop/Code, Cursor, Codex, and any MCP client). With browser (live tabs via Cloudflare Rendezvous) or Without computer / Drive MCP (Wiki, Workspaces, Collections, bookmarks, notes). Pair under Settings → Agent Bridge. |
-| **Encrypted Google Drive sync** | Drive Envelope v2, Recovery Key / Recovery Hub, key rotation, sync-merge, and versioned restore points in a private Drive AppData folder. |
+| **Mobile Companion** | Workspaces, Collections, Wiki, and Widgets on phone and tablet with encrypted two-way sync over private Google Drive AppData — the unlock key stays on your devices. Companion has its own version track (1.0.0+), separate from the extension. |
+| **Agent Connect** | MCP server for AI clients (Hermes, OpenClaw, Claude Desktop/Code, Cursor, Codex, and any MCP client). Drive MCP is the center of the setup: one flow, privacy confirmation, and live status. Pair under Settings → Agent Bridge / Google Drive. |
+| **Encrypted Google Drive sync** | Drive Envelope v2, recovery code when reconnecting, Devices & agents management, key rotation, sync-merge, and versioned restore points in a private Drive AppData folder. |
 
 <p align="center"><img src="assets/popup-assistant.png" alt="Workspace Pro Assistant in the browser popup" width="380" /></p>
 
@@ -64,6 +87,8 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 Your workspaces now fit in your pocket. The [Mobile Companion](https://app.workspace-pro.app) is a progressive web app for phones and tablets — Workspaces, Collections, Wiki, and Widgets, installed from the browser with no app-store account.
 
 Data syncs through your own encrypted Google Drive AppData file. The unlock key travels in the pairing URL fragment (QR) and never reaches a Workspace Pro server — it lives on your devices.
+
+The Companion ships on its own Semver track starting at **Companion 1.0.0**, independent of the Chrome extension version.
 
 <p align="center">
   <img src="assets/companion-home.png" alt="Workspace Pro Mobile Companion home screen" width="280" />
@@ -82,7 +107,7 @@ Workspace Pro is an MCP server your AI can use. Agent Connect works with Hermes,
 | Mode | What you get |
 |---|---|
 | **With browser** | Live tabs and browser context via Cloudflare Rendezvous while Chrome is on. |
-| **Without computer / Drive MCP** | Wiki, Workspaces, Collections, bookmarks, and notes against your encrypted Google Drive — no live tabs. |
+| **Without computer / Drive MCP** | Wiki, Workspaces, Collections, bookmarks, and notes against your encrypted Google Drive — no live tabs. One setup flow, privacy confirmation, and live status when your client is active. |
 
 Pairing is one paste from **Settings → Agent Bridge**. The pairing code is chat-safe and expires in about ten minutes.
 
@@ -92,7 +117,7 @@ Pairing is one paste from **Settings → Agent Bridge**. The pairing code is cha
 
 ## Personal Wiki
 
-Clip any page from the dashboard or popup and it becomes a local Wiki page — Markdown content, editable metadata, tags, and notes, all stored on your device. Full-text search supports operators like `tag:`, `title:`, and `-exclude`, pages link to each other with `[[wikilinks]]`, and a visual graph shows how everything connects.
+Clip any page from the dashboard or popup and it becomes a local Wiki page — Markdown content, editable metadata, tags, and notes, all stored on your device. Full-text search supports operators like `tag:`, `title:`, and `-exclude`, pages link to each other with `[[wikilinks]]`, and a visual graph shows how everything connects. Browse in list or cards with a side preview, keyboard navigation, and PDF export with accent-safe filenames.
 
 <img src="assets/wiki-list.png" alt="Workspace Pro Wiki list grouped by workspace and collection" width="100%" />
 
@@ -143,7 +168,7 @@ Default shortcuts can be changed in `chrome://extensions/shortcuts`.
 
 Workspace Pro has no analytics, tracking, or advertising. The Wiki is stored locally like the rest of your workspace data. Optional AI actions (tab tools, Assistant, or Wiki Compile/Lint/Ask) send only the content needed for the action you explicitly start, to the provider you configured.
 
-Optional **encrypted two-way Google Drive sync** writes ciphertext to the private AppData folder (not visible in "My Drive"), uses authenticated Drive Envelope v2, supports Recovery Key / Recovery Hub and transactional key rotation, keeps versioned restore points, and merges edits from desktop and Mobile Companion instead of overwriting. License validation uses a pseudonymous device token rather than workspace data.
+Optional **encrypted two-way Google Drive sync** writes ciphertext to the private AppData folder (not visible in "My Drive"), uses authenticated Drive Envelope v2, supports a recovery code when reconnecting plus Devices & agents management, keeps versioned restore points, and merges edits from desktop and Mobile Companion instead of overwriting. License validation uses a pseudonymous device token rather than workspace data.
 
 <img src="assets/drive-snapshots.png" alt="Workspace Pro Google Drive versioned restore points" width="100%" />
 
