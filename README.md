@@ -2,7 +2,7 @@
 
 <img src="assets/workspace-pro-with-text.png" alt="Workspace Pro" width="560" />
 
-[![Version](https://img.shields.io/badge/version-1.2.2-crimson?style=flat-square)](https://workspace-pro.app)
+[![Version](https://img.shields.io/badge/version-1.3.3-crimson?style=flat-square)](https://workspace-pro.app)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Live-1a73e8?style=flat-square&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/detail/jplhkjcdmpchejmdjjdckpbhdognoknm)
 [![Works on](https://img.shields.io/badge/Works%20on-Chrome%20%7C%20Brave%20%7C%20Edge-555?style=flat-square)](https://workspace-pro.app)
 [![License](https://img.shields.io/badge/license-Proprietary-555?style=flat-square)](https://workspace-pro.app/terms)
@@ -17,19 +17,43 @@ Tab & session management for power users — built for developers, homelab enthu
 
 ---
 
-## Workspace Pro v1.2.2 — Live on the Chrome Web Store
+## Workspace Pro v1.3.3 — Live on the Chrome Web Store
 
 Workspace Pro turns every new tab into a local-first command center for your browser. Organize tabs into workspaces and collections, restore saved sessions, keep a personal searchable Wiki of clipped pages, and use an optional Pro dashboard for multi-provider AI tools, widgets, and private Google Drive sync.
 
-**v1.2.2** makes encrypted Drive recovery clearer, refreshes the Wiki list-and-preview experience, simplifies Agent Connect over Drive, and keeps desktop and Mobile Companion in sync more reliably.
+**v1.3.3** makes licenses easier to enter and better protected. **v1.3.2** brought tasks and calendar together, with public holidays, week numbers and a new popup block for tasks and focus.
 
 > Built for power users who live in the browser. Works on Chrome, Brave, Edge, and other Chromium-based browsers.
 
-<img src="assets/dashboard.png" alt="Workspace Pro v1.2.2 dashboard with productivity widgets" width="100%" />
+<img src="assets/dashboard.png" alt="Workspace Pro v1.3.3 dashboard with productivity widgets" width="100%" />
 
 ---
 
 ## What’s new
+
+### v1.3.3 — Short License Key & Safer License Check
+*November 19, 2026*
+
+- Short license key: type it by hand instead of pasting the long key (Settings → license card)
+- The key is hidden in the activation field and on the Pro card; the eye button shows it, “Copy” always copies the full key
+- The Pro check uses a license-server confirmation that stays valid for up to 7 days offline
+- Pairing an AI assistant through Drive (Agent Connect) requires an active Pro license
+
+### v1.3.2 — Tasks & Calendar Together, Holidays, New Popup
+*November 17, 2026*
+
+- Edit tasks right in the calendar; drag tasks into the month view to set the due date
+- Calendar: sortable and hideable calendars, default calendar, repeating events (daily to yearly), work week view, calendar weeks
+- Public holidays for Germany, Austria, Switzerland, Spain, USA and the United Kingdom, calculated offline
+- Popup: new “Tasks & Focus” block with Today, Week and Backlog, focus timer, popup layouts backed up with Google Drive
+- Every change shows up in the activity log
+
+### v1.3.1 — Fixes & Smaller Improvements
+*November 5, 2026*
+
+- Today widget and popup: day arrows, date picker and check-off for events
+- The Assistant knows today’s date, weekday and time zone
+- Workspace cards give the title more room; date pickers follow your theme
 
 ### v1.2.2 — Drive Recovery, Wiki Preview & Cross-Device Sync
 *October 3, 2026*
@@ -52,7 +76,7 @@ Workspace Pro turns every new tab into a local-first command center for your bro
 
 ---
 
-## Features in v1.2.2
+## Features in v1.3.3
 
 ### Free
 
